@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304818832340",
+    "project_id": "watchlur",
+    "storage_bucket": "watchlur.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304818832340:android:c041d8fbb550b55843cc41",
+        "android_client_info": {
+          "package_name": "com.example.watchlur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmkSpcW8WzatAOuOKyHoRlBvkYTpyccU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
