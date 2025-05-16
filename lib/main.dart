@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:watchlur/bloc/page_bloc.dart';
+import 'package:watchlur/bloc/theme_bloc.dart';
 import 'package:watchlur/bloc/user_bloc.dart';
 import 'package:watchlur/services/services.dart';
 import 'package:watchlur/ui/pages/pages.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       child: MultiBlocProvider(
         providers: [
           BlocProvider(create: (_) => PageBloc()),
-          BlocProvider(create: (_) => UserBloc())
+          BlocProvider(create: (_) => UserBloc()),
+          BlocProvider(create: (_) => ThemeBloc())
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,

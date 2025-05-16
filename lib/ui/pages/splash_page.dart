@@ -70,12 +70,7 @@ class SplashPage extends StatelessWidget {
                     'Already Have an accout? ',
                     style: greyText.copyWith(fontWeight: FontWeight.w400),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      context.read<PageBloc>().add(GoToLoginPage());
-                    },
-                    child: Text('Sign In', style: purpleText),
-                  ),
+                  TextButton(onPressed: () {context.read<PageBloc>().add(GoToLoginPage());}, child: Text('Sign In', style: purpleText),)
                 ],
               ),
             ),
